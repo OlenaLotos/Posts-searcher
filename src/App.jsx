@@ -1,4 +1,4 @@
-import Menu from 'modules/Menu/Menu';
+import Menu from './modules/Menu/Menu';
 import UserRoutes from './UserRoutes';
 
 import './shared/styles/style.css';

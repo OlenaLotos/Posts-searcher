@@ -1,5 +1,7 @@
 import { NavLink } from 'react-router-dom';
+
 import styles from './menu.module.css';
+
 import items from './items';
 
 const getClassName = ({ isActive }) => {
@@ -9,7 +11,7 @@ const getClassName = ({ isActive }) => {
 
 const Menu = () => {
   const elements = items.map(({ id, to, text }) => (
-    <li key={id} className={styles.item}>
+    <li className={styles.item} key={id}>
       <NavLink className={getClassName} to={to}>
         {text}
       </NavLink>

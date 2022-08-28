@@ -27,10 +27,10 @@ const PostsSearchForm = ({ onSubmit }) => {
         name="search"
         value={state.search}
         onChange={handleChange}
-        placeholder="Поиск"
+        placeholder="Search"
         required
       />
-      <button type="submit">Искать</button>
+      <button type="submit">Search</button>
     </form>
   );
 };

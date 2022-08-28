@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link, useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 
 import { getPostComments } from '../../shared/api/posts';
 
@@ -43,7 +43,7 @@ const SinglePostCommentsPage = () => {
     };
 
     fetchPosts();
-  }, [setState]);
+  }, [setState, id]);
 
   const { items } = state;
 

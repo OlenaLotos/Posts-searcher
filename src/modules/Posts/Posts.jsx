@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+// import { Link } from 'react-router-dom';
+
 import PostList from '../PostList/PostList';
 
 import { getPosts } from './../../shared/api/posts';
