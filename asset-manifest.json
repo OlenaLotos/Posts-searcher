@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/react-homework-template/static/css/main.2aacb059.css",
-    "main.js": "/react-homework-template/static/js/main.1e991d96.js",
-    "index.html": "/react-homework-template/index.html",
-    "main.2aacb059.css.map": "/react-homework-template/static/css/main.2aacb059.css.map",
-    "main.1e991d96.js.map": "/react-homework-template/static/js/main.1e991d96.js.map"
+    "main.css": "//olenalotos.github.io/Posts-searcher/static/css/main.2aacb059.css",
+    "main.js": "//olenalotos.github.io/Posts-searcher/static/js/main.1e991d96.js",
+    "index.html": "//olenalotos.github.io/Posts-searcher/index.html",
+    "main.2aacb059.css.map": "//olenalotos.github.io/Posts-searcher/static/css/main.2aacb059.css.map",
+    "main.1e991d96.js.map": "//olenalotos.github.io/Posts-searcher/static/js/main.1e991d96.js.map"
   },
   "entrypoints": [
     "static/css/main.2aacb059.css",
